@@ -27,11 +27,12 @@ p{
 .pull-right{
 	float: right;
 	margin: 20px;
+	margin-top: 0px;
 }
 
-.test{
+.bottom{
 	border-style: solid;
-	border-top:single #CCCCCC;
+	border-top:solid #CCCCCC;
 }
 
 .content-box{
@@ -45,17 +46,20 @@ p{
 	font-family: 'Boogaloo';
 	color: #116189;
 	font-size: 36px;
-	padding: 20px;
+	padding-top: 20px;
+	padding-bottom: 0px;
 
 }
 
 .motto{
 	font-style: italic;
 	font-size: 120%;
+	padding-top: 0px;
+	padding-bottom: 15px;
 }
 
 nav ul{
-	background-color: #FF7800;
+	background-color: #D74710;
 	border-radius: 10px;
 	margin: 10px;
 }
@@ -76,12 +80,41 @@ nav a:visited{
 }
 
 nav a:hover{
-	background-color: #FF9A40;
+	background-color: #FF9D45;
+}
+.employee{
+	margin-bottom: 40px;
+}
+.employeeprofile{
+	margin: 0px;
+	padding: 0px;
 }
 
-.footer{
-	border-style: solid;
-	border-top: solid #CCCCCC;
+.story{
+	padding: 0px;
+	margin: 10px;
+}
+h2{
+	font-weight: bold;
+	font-size: 36px;
+	color: #116189;
+	padding: 10px;
+}
+h3{
+	font-weight: bold;
+	color: #116189;
+	margin-bottom: 0px;
+}
+
+footer{
 	font-size: 80%;
 	font-style: italic;
+}
+
+.mailus{
+	text-decoration: none;
+}
+
+.mailus:hover{
+	text-decoration: underline;
 }
